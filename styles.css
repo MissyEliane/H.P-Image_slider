@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.wrapper {
+    width: 100%;
+    background-image: url("https://res.cloudinary.com/djeiqvu10/image/upload/v1673752372/release_1_hogwarts_fid55b.png");
+    background-size: cover;
+  }
+  
+  button {
+      margin-top: 30px;    
+      height: 45px;
+      width: 65px;         
+  }
+  
+  img {
+      margin-right: 10px;
+      margin-left: 10px;
+      width: 400px;
+      height: 300px;   
+      border: 10px solid black;  
+  }
+  
+  #img__slider {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+      width: 100vw;
+      height: 100vh;
+  }
+  
+  .prev , .next {
+       color: #252324;
+       background-color: white;
+       border: none;
+       text-align: center;
+       text-transform: uppercase;
+       border-radius: 10px;
+       cursor: pointer;
+  }
+  
+  .next:hover  {
+     background-color: #E1DCCF;
+  }
+  
+  .prev:hover  {
+      background-color: #E1DCCF;
+  }
+
+  footer {
+    background-color: rgba(255, 228, 196, 0.39);
+    height: 50px;
+    padding-top: 20px;
+  }
+
+  #right__id {
+    color: var(--textColor);
+    font-size: 0.8em;
+    text-align: center;
+    margin-bottom: 80px;
+    font-family: var(--primaryFont);
+  }
+
+  .highlight {
+    color: red;
+  }
+  
+  
